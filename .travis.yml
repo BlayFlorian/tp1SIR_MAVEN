@@ -1,1 +1,8 @@
 language: java
+install: true
+
+addons:
+  sonarcloud:
+    organization: "blayflorian-github"
+    token:
+      secure: "ab427a6639ccf9233e5def73d596644ee6b98439"
